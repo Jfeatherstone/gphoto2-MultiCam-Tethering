@@ -11,5 +11,8 @@ Features:
 
 Remote configuration is not implemented. When triggered remotely, the camera takes a photo just as if the shutter button was pressed, so if you want to adjust any settings, like adjusting white balance, changing ISO, switching from Auto to Manual mode, etc., make those changes on the camera just as you would if it was not tethered.
 
-Tested on Linux Mint with Python 3.6, using three Canon Rebel T5i cameras.
+Tested on:
+- Linux Mint, Python 3.6, three Canon Rebel T5i cameras
+- Ubuntu 24.04, Python 3.11, two Nikon D800E cameras
+
 Some of the console commands are Linux-only, notably gphoto2, which is Linux-only.

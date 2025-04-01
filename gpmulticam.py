@@ -15,7 +15,8 @@ cameras = []
 name_ind = 0
 port_ind = 1
 
-filename_format = '{0}_{1}' #0 is filename, 1 is camera name
+output_folder = './output/'
+filename_format = output_folder + '{0}_{1}' #0 is filename, 1 is camera name
 simultaneous_capture = True
 keep_on_camera = True
 
@@ -116,7 +117,6 @@ def initCameras():
         return
 
     cameras = result
-    print(cameras)
     print(f'{len(cameras)} cameras found:\n')
     listCameras()
 
